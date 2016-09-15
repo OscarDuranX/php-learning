@@ -2,8 +2,8 @@
 
 //$greeting = "Hello world!\n";
 
-echo $greeting;
+//echo $greeting;
 
-$name = 'Oscar';
+$name = 'Sergii';
 
-echo "Hola $name";
+echo "Hola ${name}\n";
