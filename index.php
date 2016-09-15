@@ -11,8 +11,9 @@
 
     <h1>
         <?php
-            $greeting="Hola mon!";
-            echo $greeting;
+            $greeting="Hola ";
+            $name= $_GET{'name'};
+            echo $greeting . $name . "!";
 
         ?>
     </h1>
