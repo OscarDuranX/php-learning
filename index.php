@@ -1,5 +1,5 @@
 <?php
 
+$greeting = "Hello world!\n";
 
-
-echo "hello wold\n";
+echo $greeting;
