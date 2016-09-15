@@ -1,7 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: oscar
- * Date: 15/09/16
- * Time: 21:56
- */
+
+$greeting = "Hola %_GET['name']!";
+
+require 'index.template.php';
