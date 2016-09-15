@@ -1,9 +1,7 @@
 <?php
 
-//$greeting = "Hello world!\n";
-
-//echo $greeting;
+$nova = "Hola";
 
 $name = 'Sergii';
 
-echo "Hola ${name}\n";
+echo $nova . $name . '!';
