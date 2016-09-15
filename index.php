@@ -9,7 +9,13 @@
 </head>
 <body>
 
-    <h1> <?php echo "Hello wolrd"; ?></h1>
+    <h1>
+        <?php
+            $greeting="Hola mon!";
+            echo $greeting;
+
+        ?>
+    </h1>
 
 </body>
 </html>
