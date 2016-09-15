@@ -10,12 +10,8 @@
 <body>
 
     <h1>
-        <?php
-            $greeting="Hola ";
-            $name= $_GET{'name'};
-            echo $greeting . $name . "!";
-
-        ?>
+<!--        Sanejar codi-->
+        <?= 'Hello ' . htmlspecialchars($_GET['name']);?>
     </h1>
 
 </body>
