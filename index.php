@@ -15,11 +15,13 @@
 $names = [
     'Santiago',
     'Compostela',
-    'Sonotone'
+    'Sonotone',
 ];
 
-echo "<ul>";
-foreach ($names as $name) {
-    echo "<li>$name</li>";
-}
-echo "</ul>";
+//echo "<ul>";
+//foreach ($names as $name) {
+//    echo "<li>$name</li>";
+//}
+//echo "</ul>";
+
+require 'index.template.php';

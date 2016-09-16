@@ -11,7 +11,13 @@
 
     <h1>
 <!--        Sanejar codi-->
-        <?= $greeting;?>
+        <ul>
+        <?php
+            foreach ($names as $name) {
+                echo "<li>$name</li>";
+            }
+        ?>
+        </ul>
     </h1>
 
 </body>
