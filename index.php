@@ -12,21 +12,21 @@
 // 2- $names = ['Santiago', 'Compostela', 'Sonotone'];
 
 
-$names = [
-    'name' => 'Santiago',
-    'sn1' => 'Compostela',
-    'sn2' => 'Sonotone',
-    'edad' => 38,
-    'married' => true
-];
-
-$person = [
-    'name' => 'Santiago',
-    'sn1' => 'Compostela',
-    'sn2' => 'Sonotone',
-    'edad' => 38,
-    'married' => true
-];
+//$names = [
+//    'name' => 'Santiago',
+//    'sn1' => 'Compostela',
+//    'sn2' => 'Sonotone',
+//    'edad' => 38,
+//    'married' => true
+//];
+//
+//$person = [
+//    'name' => 'Santiago',
+//    'sn1' => 'Compostela',
+//    'sn2' => 'Sonotone',
+//    'edad' => 38,
+//    'married' => true
+//];
 
 //var_dump($names);
 //print_r($names);
@@ -38,11 +38,20 @@ $person = [
 //}
 //echo "</ul>";
 
-echo $names[0];
+//echo $names[0];
+//
+//echo $person['sn1'];
+//
+//$married = true;
+//$married = false;
 
-echo $person['sn1'];
+//copy($src,$dst);
+//
+//
+//function hello($name, $sn1){
+//    echo "Hola " . $name. " " . $sn1 . " !";
+//}
 
-$married = true;
-$married = false;
+require 'function.php';
 
 require 'index.template.php';

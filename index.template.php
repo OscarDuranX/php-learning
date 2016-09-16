@@ -10,14 +10,7 @@
 <body>
 
 <ul>
-    <li><?php
-
-        if ($person['married'] == true){
-            echo 'Casado';
-        }
-        else
-            echo 'soltero';
-        ?></li>
+    <li> <?= hello('Oscar',' Duran');?></li>
 </ul>
 
 
