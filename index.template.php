@@ -9,21 +9,17 @@
 </head>
 <body>
 
-<!--    <h1>-->
-<!--        <ul>-->
-<!--            --><?php //foreach ($names as $name) :?>
-<!---->
-<!--                <li>--><?//= $name?><!--</li>-->
-<!--            --><?php //endforeach; ?>
-<!--        </ul>-->
+<ul>
+    <li><?php
 
-        <ul>
-            <?php foreach ($names as $key => $dades) :?>
+        if ($person['married'] == true){
+            echo 'Casado';
+        }
+        else
+            echo 'soltero';
+        ?></li>
+</ul>
 
-                <li><stron><?= $key?> </stron> : <small><?= $dades ?> </small></li>
-            <?php endforeach; ?>
-        </ul>
-<!--    </h1>-->
 
 </body>
 </html>

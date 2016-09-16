@@ -17,7 +17,15 @@ $names = [
     'sn1' => 'Compostela',
     'sn2' => 'Sonotone',
     'edad' => 38,
-    'married' => yes
+    'married' => true
+];
+
+$person = [
+    'name' => 'Santiago',
+    'sn1' => 'Compostela',
+    'sn2' => 'Sonotone',
+    'edad' => 38,
+    'married' => true
 ];
 
 //var_dump($names);
@@ -33,5 +41,8 @@ $names = [
 echo $names[0];
 
 echo $person['sn1'];
+
+$married = true;
+$married = false;
 
 require 'index.template.php';
