@@ -10,7 +10,7 @@
 <body>
 
 <ul>
-    <li> <?= hello('Oscar',' Duran');?></li>
+    <li> <?= printArgs(['1', '2' , '3']);?></li>
 </ul>
 
 
