@@ -9,14 +9,21 @@
 </head>
 <body>
 
-    <h1>
-        <ul>
-            <?php foreach ($names as $name) :?>
+<!--    <h1>-->
+<!--        <ul>-->
+<!--            --><?php //foreach ($names as $name) :?>
+<!---->
+<!--                <li>--><?//= $name?><!--</li>-->
+<!--            --><?php //endforeach; ?>
+<!--        </ul>-->
 
-                <li><?= $name?></li>
+        <ul>
+            <?php foreach ($names as $key => $dades) :?>
+
+                <li><stron><?= $key?> </stron> : <small><?= $dades ?> </small></li>
             <?php endforeach; ?>
         </ul>
-    </h1>
+<!--    </h1>-->
 
 </body>
 </html>
