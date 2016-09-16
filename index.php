@@ -9,4 +9,17 @@
 
 //Declarar arrays
 // 1- $names = array();
-$names = ['Santiago', 'Compostela', 'Sonotone'];
+// 2- $names = ['Santiago', 'Compostela', 'Sonotone'];
+
+
+$names = [
+    'Santiago',
+    'Compostela',
+    'Sonotone'
+];
+
+echo "<ul>";
+foreach ($names as $name) {
+    echo "<li>$name</li>";
+}
+echo "</ul>";
