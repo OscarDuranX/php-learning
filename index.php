@@ -54,25 +54,6 @@
 
 require 'function.php';
 
-class Task {
-
-    public $description;
-    public $completed;
-
-    public function __construct($description, $completed)
-    {
-        $this->description = $description;
-        $this->completed = $completed;
-
-    }
-
-//    public function Task()
-//    {
-//
-//    }
-
-
-}
 
 //$task = new Task();
 $task = new Task("Aprendre PHP",false);
