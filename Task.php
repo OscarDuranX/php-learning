@@ -34,4 +34,17 @@ class Task
         return $this->completed;
     }
 
+    public function ccompleted()
+    {
+        return $this->completed;
+    }
+
+    public function completed( $completed = null)
+    {
+        if ($completed == null){
+            return $completed;
+        }
+        $this->completed = $completed;
+    }
+
 }
