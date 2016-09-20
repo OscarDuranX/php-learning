@@ -54,4 +54,12 @@
 
 require 'function.php';
 
+class Task {
+
+
+}
+
+//$task = new Task();
+$task = new Task;
+
 require 'index.template.php';
