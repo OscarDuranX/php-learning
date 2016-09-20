@@ -56,12 +56,12 @@ require 'function.php';
 
 class Task {
 
-    public function __construct($a,$b,$c)
+    public $description;
+
+    public function __construct($description)
     {
-//        echo "Nova tasca consturida";
-        echo $a;
-        echo $b;
-        echo $c;
+        $this->description = $description;
+
     }
 
 //    public function Task()
@@ -73,7 +73,10 @@ class Task {
 }
 
 //$task = new Task();
-$task = new Task("Pataca","Peres","Fesols");
+$task = new Task("Aprendre PHP");
+$task = new Task("Neteja");
+$task = new Task("Compra pa");
+$task = new Task("Llet");
 
 //var_dump($task);
 
