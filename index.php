@@ -14,9 +14,9 @@ require 'database/QueryBuilder.php';
 
 $pdo = Connection::make();
 
-$query = new QueryBuilder();
+$query = new QueryBuilder($pdo);
 
-$tasks = $query->all($pdo,'todos');
+$tasks = $query->all('todos');
 
 //$tasks = Task::all();
 require 'index.template.php';

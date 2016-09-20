@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="739e022c-b434-4f8b-badb-d22b95746563" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/Connection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/QueryBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/function.php" afterPath="$PROJECT_DIR$/function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/QueryBuilder.php" afterPath="$PROJECT_DIR$/database/QueryBuilder.php" />
     </list>
     <ignored path="php-learning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +30,7 @@
     <favorites_list name="php-learning" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48833033">
+    <splitter split-orientation="horizontal" split-proportion="0.41113105">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
@@ -64,8 +60,8 @@
           <file leaf-file-name="index.template.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.template.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+                <state relative-caret-position="342">
+                  <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -74,13 +70,13 @@
           <file leaf-file-name="QueryBuilder.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/database/QueryBuilder.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                <state relative-caret-position="36">
+                  <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
                   <folding>
-                    <marker date="1474400135103" expanded="true" signature="177:190" ph="SELECT * FRO... " />
-                    <marker date="1474400135103" expanded="true" signature="177:191" ph="SELECT * FRO... todos" />
-                    <marker date="1474400135103" expanded="true" signature="177:199" ph="SELECT * FRO... " />
-                    <marker date="1474400135103" expanded="true" signature="177:201" ph="SELECT * FRO... " />
+                    <marker date="1474400731214" expanded="true" signature="291:304" ph="SELECT * FRO... " />
+                    <marker date="1474400731214" expanded="true" signature="291:305" ph="SELECT * FRO... todos" />
+                    <marker date="1474400731214" expanded="true" signature="291:313" ph="SELECT * FRO... " />
+                    <marker date="1474400731214" expanded="true" signature="291:315" ph="SELECT * FRO... " />
                   </folding>
                 </state>
               </provider>
@@ -111,8 +107,8 @@
         <option value="$PROJECT_DIR$/index.template.php" />
         <option value="$PROJECT_DIR$/Connection.php" />
         <option value="$PROJECT_DIR$/function.php" />
-        <option value="$PROJECT_DIR$/database/QueryBuilder.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/database/QueryBuilder.php" />
       </list>
     </option>
   </component>
@@ -265,12 +261,12 @@
       <workItem from="1473965124114" duration="4502000" />
       <workItem from="1474033267740" duration="6585000" />
       <workItem from="1474380717471" duration="7000" />
-      <workItem from="1474383929742" duration="11746000" />
+      <workItem from="1474383929742" duration="12190000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22840000" />
+    <option name="totallyTimeSpent" value="23284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1375" height="876" extended-state="6" />
@@ -417,22 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/Connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/function.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -449,15 +429,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/database/QueryBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="36">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <marker date="1474400135103" expanded="true" signature="177:190" ph="SELECT * FRO... " />
-            <marker date="1474400135103" expanded="true" signature="177:191" ph="SELECT * FRO... todos" />
-            <marker date="1474400135103" expanded="true" signature="177:199" ph="SELECT * FRO... " />
-            <marker date="1474400135103" expanded="true" signature="177:201" ph="SELECT * FRO... " />
+            <marker date="1474400731214" expanded="true" signature="291:304" ph="SELECT * FRO... " />
+            <marker date="1474400731214" expanded="true" signature="291:305" ph="SELECT * FRO... todos" />
+            <marker date="1474400731214" expanded="true" signature="291:313" ph="SELECT * FRO... " />
+            <marker date="1474400731214" expanded="true" signature="291:315" ph="SELECT * FRO... " />
           </folding>
         </state>
       </provider>

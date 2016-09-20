@@ -1,5 +1,6 @@
 <?php
 
+require 'Connection.php';
 /**
  * Created by PhpStorm.
  * User: oscar
@@ -8,6 +9,20 @@
  */
 class QueryBuilder
 {
+    public $pdo;
+
+    /**
+     * QueryBuilder constructor.
+     * @param $pdo
+     */
+    public function __construct(PDO $pdo)
+    {
+        $this->pdo = $pdo;
+    }
+
+    // Collaborators / Dependencies
+
+    // Dependency injection
 
     /**
      * @param Connection $pdo
@@ -15,9 +30,9 @@ class QueryBuilder
      * @return mixed
      * type hinting
      */
-    function all(Connection $pdo, $table)
+    function all($table)
     {
-        $query = $pdo->prepare("SELECT * FROM {$table}");
+        $query = $this->pdo->prepare("SELECT * FROM {$table}");
 
         $query->execute();
 
