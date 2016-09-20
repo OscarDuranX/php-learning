@@ -57,10 +57,12 @@ require 'function.php';
 class Task {
 
     public $description;
+    public $completed;
 
-    public function __construct($description)
+    public function __construct($description, $completed)
     {
         $this->description = $description;
+        $this->completed = $completed;
 
     }
 
@@ -73,10 +75,9 @@ class Task {
 }
 
 //$task = new Task();
-$task = new Task("Aprendre PHP");
-$task = new Task("Neteja");
-$task = new Task("Compra pa");
-$task = new Task("Llet");
+$task = new Task("Aprendre PHP",false);
+var_dump($task ->description);
+var_dump($task ->completed);
 
 //var_dump($task);
 
