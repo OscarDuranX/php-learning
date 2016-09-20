@@ -56,9 +56,12 @@ require 'function.php';
 
 class Task {
 
-    public function __construct()
+    public function __construct($a,$b,$c)
     {
-        echo "Nova tasca consturida";
+//        echo "Nova tasca consturida";
+        echo $a;
+        echo $b;
+        echo $c;
     }
 
 //    public function Task()
@@ -70,7 +73,7 @@ class Task {
 }
 
 //$task = new Task();
-$task = new Task;
+$task = new Task("Pataca","Peres","Fesols");
 
 //var_dump($task);
 
