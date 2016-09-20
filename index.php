@@ -56,10 +56,22 @@ require 'function.php';
 
 class Task {
 
+    public function __construct()
+    {
+        echo "Nova tasca consturida";
+    }
+
+//    public function Task()
+//    {
+//
+//    }
+
 
 }
 
 //$task = new Task();
 $task = new Task;
+
+//var_dump($task);
 
 require 'index.template.php';
