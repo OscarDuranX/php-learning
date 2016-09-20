@@ -5,11 +5,12 @@
  * User: oscar
  * Date: 20/09/16
  * Time: 18:03
+ * POPO: Plain Old PHP Object | Contenedor de tasques | Model
  */
 class Task
 {
-
     protected $description;
+
     private $completed;
 
     public function __construct($description, $completed)
@@ -29,22 +30,12 @@ class Task
         $this->description = $description;
     }
 
-    public function isComplete()
+
+    public function completed()
     {
         return $this->completed;
     }
 
-    public function ccompleted()
-    {
-        return $this->completed;
-    }
 
-    public function completed( $completed = null)
-    {
-        if ($completed == null){
-            return $completed;
-        }
-        $this->completed = $completed;
-    }
 
 }

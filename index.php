@@ -1,66 +1,20 @@
 <?php
 
-//$greeting = "Hola %_GET['name']!";
-
-//require 'index.template.php';
-
-//Estrcutres de dades:
-// Arrays PHP totes les estrcuyutres : Maps, Piles, Vectors, Listes,  etc
-
-//Declarar arrays
-// 1- $names = array();
-// 2- $names = ['Santiago', 'Compostela', 'Sonotone'];
-
-
-//$names = [
-//    'name' => 'Santiago',
-//    'sn1' => 'Compostela',
-//    'sn2' => 'Sonotone',
-//    'edad' => 38,
-//    'married' => true
-//];
-//
-//$person = [
-//    'name' => 'Santiago',
-//    'sn1' => 'Compostela',
-//    'sn2' => 'Sonotone',
-//    'edad' => 38,
-//    'married' => true
-//];
-
-//var_dump($names);
-//print_r($names);
-//echo $names;
-
-//echo "<ul>";
-//foreach ($names as $name) {
-//    echo "<li>$name</li>";
-//}
-//echo "</ul>";
-
-//echo $names[0];
-//
-//echo $person['sn1'];
-//
-//$married = true;
-//$married = false;
-
-//copy($src,$dst);
-//
-//
-//function hello($name, $sn1){
-//    echo "Hola " . $name. " " . $sn1 . " !";
-//}
-
-
 require 'function.php';
 
 require 'Task.php';
-//$task = new Task();
-$task = new Task("Aprendre PHP",false);
 
-var_dump($task);
-$task->complete();
-var_dump($task);
+// PDO: Php Data Objects
+try{
+    $pdo = new PDO('mysql:host=127.0.0.1;dbname=prova','root','');
+}catch(PDOException $e) {
+    die("Ha hagut un error duran la connexió: Missatge: " . $e->getMessage());
+}
 
-require 'index.template.php';
+$query = $pdo->prepare('SELECT * FROM todos');
+
+$query-> execute();
+
+var_dump($query->fetchAll(PDO::FETCH_OBJ));
+
+//require 'index.template.php';
