@@ -8,11 +8,9 @@
  */
 class Connection
 {
-
     /**
      * @return PDO
      */
-
     public static function make($config,$message)
     {
         try{

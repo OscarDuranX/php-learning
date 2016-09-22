@@ -1,63 +1,27 @@
 <?php
 
-require 'Connection.php';
-/**
- * Created by PhpStorm.
- * User: oscar
- * Date: 20/09/16
- * Time: 21:33
- */
-class QueryBuilder
-{
+class QueryBuilder {
+    /**
+     * @var PDO
+     */
     public $pdo;
-
     /**
      * QueryBuilder constructor.
+     *
      * @param $pdo
      */
     public function __construct(PDO $pdo)
     {
         $this->pdo = $pdo;
     }
-
-    // Collaborators / Dependencies
-
     // Dependency injection
-
     /**
-     * @param Connection $pdo
+     *
+     * Fetch all resources on table.
+     *
      * @param $table
-     * @return mixed
-     * type hinting
+     * @return array
      */
-    function all($table)
-    {
-        $query = $this->pdo->prepare("SELECT * FROM {$table}");
-
-        $query->execute();
-
-        return $tasks = $query->fetchAll(
-            PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE,
-            Task::class);
-    }
-
-}
-
-class Contract{
-
-    public $pdo;
-
-    /**
-     * Contract constructor.
-     * @param $arquitecte
-     * @param $paletes
-     * @param $lampista
-     */
-    public function __construct(PDO $pdo)
-    {
-        $this->pdo = $pdo;
-    }
-
     function all($table)
     {
         $query = $this->pdo->prepare("SELECT * FROM {$table}");

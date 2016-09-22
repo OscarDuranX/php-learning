@@ -11,20 +11,11 @@
 
 
 <ul>
-    <?php foreach ($persons as $persona) : ?>
+    <?php foreach ($persons as $person) : ?>
         <li>
-                <?= $persona->name?>
+            <?= $person->name ?>
         </li>
-        <li>
-            <?= $persona->midlename?>
-        </li>
-        <li>
-            <?= $persona->lastname?>
-        </li>
-        <li>
-            <?= $persona->ID?>
-        </li>
-    <?php endforeach; ?>
+    <?php endforeach;?>
 
 </ul>
 
