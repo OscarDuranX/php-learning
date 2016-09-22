@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-
+<?php require 'menu.php' ?>
 
 <ul>
     <?php foreach ($persons as $person) : ?>
