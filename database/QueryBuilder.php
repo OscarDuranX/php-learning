@@ -45,9 +45,7 @@ class QueryBuilder
 
 class Contract{
 
-    public $arquitecte;
-    public $paletes;
-    public $lampista;
+    public $pdo;
 
     /**
      * Contract constructor.
@@ -55,17 +53,17 @@ class Contract{
      * @param $paletes
      * @param $lampista
      */
-    public function __construct($arquitecte, $paletes, $lampista)
+    public function __construct(PDO $pdo)
     {
-        $this->arquitecte = $arquitecte;
-        $this->paletes = $paletes;
-        $this->lampista = $lampista;
+        $this->pdo = $pdo;
     }
 
-    public function buildHome()
+    function all($table)
     {
-        $arquitecte->disenyar();
-        $paletes->construir();
-        $lampista->work()
+        $query = $this->pdo->prepare("SELECT * FROM {$table}");
+        $query->execute();
+        return $query->fetchAll(
+            PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE,
+            Task::class);
     }
 }
