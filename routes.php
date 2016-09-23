@@ -6,6 +6,6 @@ return [
     'contact'       => 'controllers/contact.php',
     'persons'       => 'controllers/persons.php',
     'add/person'    => 'controllers/addperson.php',
-    'name'          => 'controllers'
+    'names'         => 'controllers/names.php',
 
 ];
