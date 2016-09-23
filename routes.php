@@ -1,9 +1,11 @@
 <?php
 
-$routes = [
+return [
     ''              => 'controllers/tasks.php',
     'about'         => 'controllers/about.php',
     'contact'       => 'controllers/contact.php',
     'persons'       => 'controllers/persons.php',
-    'add/person'    => 'controllers/addperson',
+    'add/person'    => 'controllers/addperson.php',
+    'name'          => 'controllers'
+
 ];
