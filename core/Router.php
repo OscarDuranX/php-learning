@@ -8,21 +8,42 @@
  */
 class Router
 {
-
+    /**
+     * @var array
+     */
     protected $routes = [];
 
-    public function define($rutes)
+    /**
+     * @param $routes
+     */
+    public function define($routes)
     {
-        $this->routes = $rutes;
+        $this->routes = $routes;
     }
 
+    /**
+     * @param $routes
+     * @return static
+     */
+    public static function load($routes)
+    {
+        $router = new static;
+        $router->routes = require $routes;
+        return $router;
+    }
+
+    /**
+     * @param $uri
+     * @return mixed
+     * @throws Exception
+     */
     public function direct($uri)
     {
         if(array_key_exists($uri,$this->routes)){
-            require $this->routes[$uri];
+            return $this->routes[$uri];
         }
         else{
-            throw  new Exception("No s'ha trobat la ruta");
+            throw new Exception("No s'ha trobat la ruta");
         }
     }
 
