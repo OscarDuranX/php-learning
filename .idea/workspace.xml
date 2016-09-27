@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="739e022c-b434-4f8b-badb-d22b95746563" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/names.php" afterPath="$PROJECT_DIR$/controllers/names.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/database/QueryBuilder.php" afterPath="$PROJECT_DIR$/core/database/QueryBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/addperson.template.php" afterPath="$PROJECT_DIR$/views/addperson.template.php" />
     </list>
     <ignored path="php-learning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,30 +25,6 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - prova@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - prova@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="Persons" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -58,20 +32,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QueryBuilder.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="QueryBuilder.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/database/QueryBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+            <state relative-caret-position="264">
+              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
               <folding>
-                <marker date="1474974668328" expanded="true" signature="439:453" ph="SELECT * FRO... $" />
-                <marker date="1474974668328" expanded="true" signature="699:730" ph="insert into " />
+                <marker date="1474975225114" expanded="true" signature="439:453" ph="SELECT * FRO... $" />
+                <marker date="1474975225114" expanded="true" signature="699:730" ph="insert into " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="names.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="names.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/names.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -150,8 +124,8 @@
         <option value="$PROJECT_DIR$/routes.php" />
         <option value="$PROJECT_DIR$/core/Router.php" />
         <option value="$PROJECT_DIR$/views/addperson.template.php" />
-        <option value="$PROJECT_DIR$/core/database/QueryBuilder.php" />
         <option value="$PROJECT_DIR$/controllers/names.php" />
+        <option value="$PROJECT_DIR$/core/database/QueryBuilder.php" />
       </list>
     </option>
   </component>
@@ -383,12 +357,12 @@
       <workItem from="1474640259854" duration="4439000" />
       <workItem from="1474949048918" duration="146000" />
       <workItem from="1474949202991" duration="1977000" />
-      <workItem from="1474970765440" duration="3997000" />
+      <workItem from="1474970765440" duration="4459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42663000" />
+    <option name="totallyTimeSpent" value="43125000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,8 +438,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1474974668328" expanded="true" signature="439:453" ph="SELECT * FRO... $" />
-            <marker date="1474974668328" expanded="true" signature="699:730" ph="insert into " />
+            <marker date="1474975225114" expanded="true" signature="439:453" ph="SELECT * FRO... $" />
+            <marker date="1474975225114" expanded="true" signature="699:730" ph="insert into " />
           </folding>
         </state>
       </provider>
@@ -506,8 +480,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1474974668328" expanded="true" signature="439:453" ph="SELECT * FRO... $" />
-            <marker date="1474974668328" expanded="true" signature="699:730" ph="insert into " />
+            <marker date="1474975225114" expanded="true" signature="439:453" ph="SELECT * FRO... $" />
+            <marker date="1474975225114" expanded="true" signature="699:730" ph="insert into " />
           </folding>
         </state>
       </provider>
@@ -548,8 +522,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1474974668328" expanded="true" signature="439:453" ph="SELECT * FRO... $" />
-            <marker date="1474974668328" expanded="true" signature="699:730" ph="insert into " />
+            <marker date="1474975225114" expanded="true" signature="439:453" ph="SELECT * FRO... $" />
+            <marker date="1474975225114" expanded="true" signature="699:730" ph="insert into " />
           </folding>
         </state>
       </provider>
@@ -590,8 +564,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1474974668328" expanded="true" signature="439:453" ph="SELECT * FRO... $" />
-            <marker date="1474974668328" expanded="true" signature="699:730" ph="insert into " />
+            <marker date="1474975225114" expanded="true" signature="439:453" ph="SELECT * FRO... $" />
+            <marker date="1474975225114" expanded="true" signature="699:730" ph="insert into " />
           </folding>
         </state>
       </provider>
@@ -850,6 +824,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/names.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/addperson.template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -860,20 +842,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/database/QueryBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        <state relative-caret-position="264">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
           <folding>
-            <marker date="1474974668328" expanded="true" signature="439:453" ph="SELECT * FRO... $" />
-            <marker date="1474974668328" expanded="true" signature="699:730" ph="insert into " />
+            <marker date="1474975225114" expanded="true" signature="439:453" ph="SELECT * FRO... $" />
+            <marker date="1474975225114" expanded="true" signature="699:730" ph="insert into " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/names.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>

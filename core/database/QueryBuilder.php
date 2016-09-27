@@ -43,7 +43,7 @@ class QueryBuilder {
 
             implode(', ', array_keys($dades)),
 
-            ':' . implode(', ', array_keys($dades))
+            ':' . implode(', :', array_keys($dades))
 
             );
 
