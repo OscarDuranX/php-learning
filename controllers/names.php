@@ -6,7 +6,8 @@
 //    PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE,
 //    Task::class);
 
+
 echo "Hola " . $_POST['name'];
 
 
-$persons = $query->insertPerson('Persons',$_POST['name']);
+//$persons = $query->insertPerson('Persons',$_POST['name']);

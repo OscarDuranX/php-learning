@@ -20,4 +20,6 @@ require "core/Router.php";
 
 // FC Front Controller
 
-require Router::load('routes.php')->direct(Request::uri());
+require Router::load('routes.php')
+
+    ->direct(Request::uri(), Request::method());
