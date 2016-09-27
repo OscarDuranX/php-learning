@@ -1,13 +1,18 @@
 <?php
 
-//$query = $this->pdo->prepare("SELECT * FROM {$table}");
-//$query->execute();
-//return $query->fetchAll(
-//    PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE,
-//    Task::class);
+
+//echo "Hola " . $_POST['name'];
 
 
-echo "Hola " . $_POST['name'];
+$query->insertPerson('Persons',[
+
+    'name'      => $_POST['name'],
+    'midlename' =>   $_POST['midlename'],
+    'lastname'      => $_POST['lastname'],
 
 
-//$persons = $query->insertPerson('Persons',$_POST['name']);
+]
+);
+
+
+header('Location: /');
