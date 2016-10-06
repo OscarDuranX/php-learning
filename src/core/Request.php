@@ -1,5 +1,7 @@
 <?php
 
+namespace oscarduranx\Myframework\core;
+
 /**
  * Created by PhpStorm.
  * User: oscar

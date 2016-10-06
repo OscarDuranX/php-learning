@@ -1,5 +1,7 @@
 <?php
 
+namespace oscarduranx\Myframework\core;
+
 function hello($name, $sn1){
     echo "Hola " . $name. " " . $sn1 . " !";
 }

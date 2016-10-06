@@ -1,5 +1,7 @@
 <?php
 
+namespace core\Models;
+
 /**
  * Created by PhpStorm.
  * User: oscar

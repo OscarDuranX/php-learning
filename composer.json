@@ -1,0 +1,19 @@
+{
+    "name": "oscar/php-learning",
+    "description": "projecte de practica",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Oscar Duran",
+            "email": "xoscarduranx@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload" :{
+        "psr-4" : {
+            "oscarduranx\\Myframework\\" : "src/"
+        }
+    }
+}

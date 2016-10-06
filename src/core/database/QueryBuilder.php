@@ -1,5 +1,7 @@
 <?php
 
+namespace oscarduranx\Myframework\core\database;
+
 class QueryBuilder {
     /**
      * @var PDO

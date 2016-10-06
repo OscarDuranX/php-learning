@@ -1,9 +1,14 @@
 <?php
 
-require "core/bootstrap.php";
 
-require "core/Request.php";
-require "core/Router.php";
+
+require __DIR__ . 'vendor/autoload.php';
+
+
+require "src/core/bootstrap.php";
+
+use oscarduranx\Myframework\core\Request;
+use oscarduranx\Myframework\core\Router;
 
 //$uri = Request::uri();
 //

@@ -1,11 +1,6 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: oscar
- * Date: 20/09/16
- * Time: 21:24
- */
+namespace oscarduranx\Myframework\core\database;
 class Connection
 {
     /**
